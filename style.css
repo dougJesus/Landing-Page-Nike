@@ -6,33 +6,55 @@ body{
     display: grid;
     grid-auto-flow: column;
 }
-#OneSection h1{
-    font-weight: 700;
-    font-size: 60px;
-    font-family: 'Nunito Sans', sans-serif;
+#OneSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
 }
-    #OneSection h2{
-    font-weight: 400;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.5);
-}
-    #OneSection button{
-    background-color: rgba(21, 24, 35, 1);
-    width: 238px;
-    height: 55px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: rgba(255, 255, 255, 1);
-    border: none;
+    #OneSection h1{
+        margin: 0;
+        padding-top: 9rem;
+        text-align: justify;
+        font-weight: 700;
+        font-size: 60px;
+        font-family: 'Nunito Sans', sans-serif;
     }
-
+    #OneSection h2{
+        text-align: justify;
+        font-weight: 400;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.5);
+}
+    #OneSection h4{
+        padding-top: 10em;
+    }
+    #OneSection button{
+        cursor: pointer;
+        background-color: rgba(21, 24, 35, 1);
+        width: 238px;
+        height: 55px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 1);
+        border: none;
+    }
+    #OneSection button:hover{
+        background-color:rgba(255, 236, 66, 1);
+        color:black;
+    }
 #TwoSection{
     background-image: url(https://i.ibb.co/gdCYSbt/Rectangle-101.png);
-    background-repeat: round;
-    width: 100%;
-}
-    #TwoSection img{
-    
     }
+    #TwoSection img{
+        cursor: pointer;
+        width:488x;
+        margin-top: 13rem; 
+        margin-left: 10rem;
+        margin-bottom: 11rem;
+    }
+    #TwoSection img:hover{
+        transform: scale(1.3)
+    }
+    
